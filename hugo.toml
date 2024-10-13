@@ -62,13 +62,13 @@ author = "authors"
 
 [[params.social]]
 name = "Email"
-icon = "fa fa-2x fa-email-bulk"
+icon = "fa fa-2x fa-envelope"
 weight = 2
 url = "mailto:raul@bulgariu.xyz"
 
 [[params.social]]
 name = "Git"
-icon = "fa fa-2x fa-git-square"
+icon = "fa fa-2x fa-git-alt"
 weight = 2
 url = "https://git.bulgariu.xyz/raul"
 
