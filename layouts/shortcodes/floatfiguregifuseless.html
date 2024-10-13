@@ -1,0 +1,78 @@
+<style>
+  figure {
+      float: right;
+      height: 30%;
+      width: 30%;
+  }
+  img.pic {
+ //     border-radius: 50%;
+      margin-left: 20px;
+  }
+.btn {
+    position: relative;
+    font-size: 35px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.btn::before {
+    position: absolute;
+    content: '';
+    width: 110%;
+    height: 110%;
+    top: 130px;
+    left: 145px;
+    min-width: 110%;
+    border-radius: 50%;
+    animation: rotate 20s linear infinite;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.green {
+}
+.green::before {
+      border: dashed 10px #ff6e00;
+}
+@keyframes rotate {
+    from {
+    transform: translate(-50%,-50%) rotate(360deg);
+    }
+    to {
+    transform: translate(-50%,-50%) rotate(-360deg);
+    }
+}
+</style>
+<figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
+    {{- if .Get "link" -}}
+        <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
+    {{- end -}}
+    <div>
+    <a class="btn green">
+    <img class="pic" src="{{ .Get "src" }}"
+         {{- if or (.Get "alt") (.Get "caption") }}
+         alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
+         {{- end -}}
+         {{- with .Get "width" }} width="{{ . }}"{{ end -}}
+         {{- with .Get "height" }} height="{{ . }}"{{ end -}}
+         {{- with .Get "loading" }} loading="{{ . }}"{{ end -}}
+    /><!-- Closing img tag -->
+    </a></div>
+    {{- if .Get "link" }}</a>{{ end -}}
+    {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}
+        <figcaption>
+            {{ with (.Get "title") -}}
+                <h4>{{ . }}</h4>
+            {{- end -}}
+            {{- if or (.Get "caption") (.Get "attr") -}}<p>
+                {{- .Get "caption" | markdownify -}}
+                {{- with .Get "attrlink" }}
+                    <a href="{{ . }}">
+                {{- end -}}
+                {{- .Get "attr" | markdownify -}}
+                {{- if .Get "attrlink" }}</a>{{ end }}</p>
+            {{- end }}
+        </figcaption>
+    {{- end }}
+</figure>
+
