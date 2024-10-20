@@ -61,6 +61,12 @@ tag = "tags"
 author = "authors"
 
 [[params.social]]
+name = "HTB"
+icon = "fa fa-2x fa-cube"
+weight = 1
+url = "https://app.hackthebox.com/profile/1471024"
+
+[[params.social]]
 name = "Email"
 icon = "fa fa-2x fa-envelope"
 weight = 2
@@ -69,7 +75,7 @@ url = "mailto:raul@bulgariu.xyz"
 [[params.social]]
 name = "Git"
 icon = "fa fa-2x fa-git-alt"
-weight = 2
+weight = 3
 url = "https://git.bulgariu.xyz/raul"
 
 [languages.en]
@@ -81,10 +87,10 @@ name = "CV"
 weight = 1
 url = "https://cv.bulgariu.xyz/en"
 
-[[languages.en.menu.main]]
-name = "Git"
-weight = 2
-url = "https://git.bulgariu.xyz/raul"
+# [[languages.en.menu.main]]
+# name = "Git"
+# weight = 2
+# url = "https://git.bulgariu.xyz/raul"
 
 [[languages.en.menu.main]]
 name = "About"
@@ -121,10 +127,10 @@ name = "CV"
 weight = 1
 url = "https://cv.bulgariu.xyz/es"
 
-[[languages.es.menu.main]]
-name = "Git"
-weight = 2
-url = "https://git.bulgariu.xyz/raul"
+# [[languages.es.menu.main]]
+# name = "Git"
+# weight = 2
+# url = "https://git.bulgariu.xyz/raul"
 
 [[languages.es.menu.main]]
 name = "Sobre mí"
