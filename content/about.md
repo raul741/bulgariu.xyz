@@ -12,4 +12,4 @@ Mis principales intereses giran en torno a la ciberseguridad y la administració
 
 Si quieres saber más sobre mi experiencia en programación, [siempre me ha gustado escribir en Go](https://git.bulgariu.xyz/raul).
 
-Puedes encontrar algunos de mis tutoriales/artículos [aquí](/es/posts)
+Puedes encontrar algunos de mis tutoriales/artículos [aquí](/posts).

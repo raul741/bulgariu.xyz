@@ -12,4 +12,4 @@ My main interests revolve around cybersecurity and system/network administration
 
 If you'd like to know more about my programming experience, [I've always enjoyed writing in Go](https://git.bulgariu.xyz/raul).
 
-You can find some of my tutorials/writeups [here](/en/posts)
+You can find some of my tutorials/writeups [here](/en/posts).
