@@ -104,7 +104,7 @@ Once you download the Solar-PuTTY session-cracking tool of your choice, exfiltra
 
 {{<betterfigure src="files/cracked.png" alt="Cracked session password">}}
 
-As you can see here, we have plaintext access to the root password of the machine, so now we can go back to our SSH session as "shirohige", execute `su -` and use try the password we found in the Solar-PuTTY session:
+As you can see here, we have plaintext access to the root password of the machine, so now we can go back to our SSH session as "shirohige", execute `su -` and try the password we found in the Solar-PuTTY session:
 
 {{<betterfigure src="files/roottxt.png" alt="Root flag">}}
 

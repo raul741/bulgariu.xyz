@@ -104,7 +104,7 @@ Una vez descarguéis la herramienta de descifrado de sesiones Solar-PuTTY de vue
 
 {{<betterfigure src="files/cracked.png" alt="Cracked session password">}}
 
-Como podéis ver aquí, tenemos acceso en texto plano a la contraseña de root de la máquina, por lo que ahora podemos volver a nuestra sesión SSH como "shirohige", ejecutar 'su -' y usar probar la contraseña que encontramos en la sesión de Solar-PuTTY:
+Como podéis ver aquí, tenemos acceso en texto plano a la contraseña de root de la máquina, por lo que ahora podemos volver a nuestra sesión SSH como "shirohige", ejecutar 'su -' y probar la contraseña que encontramos en la sesión de Solar-PuTTY:
 
 {{<betterfigure src="files/roottxt.png" alt="Root flag">}}
 
