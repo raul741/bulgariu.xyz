@@ -31,14 +31,14 @@ Lo primero que notarás de la web es que ofrece una aplicación bancaria polival
 
 {{<betterfigure src="files/apk.png" alt="APK Download">}}
 
-## Descompilando el APK
+## Decompilando el APK
 
 Si bien es posible que tengáis la tentación de intentar instalar el APK en vuestro teléfono móvil, no sacaréis mucho de ello.
 Lo que nos gustaría saber es cómo se comunica esta aplicación con el servidor backend, ya que no tenemos nada de información sobre esta máquina más allá de su sitio web estático, y para ello utilizaremos la herramienta ***apktool***.
 
 {{<betterfigure src="files/decomp.png" alt="Decompiled APK">}}
 
-Después de descompilar, veréis que hay una gran cantidad de archivos, aproximadamente alrededor de 8200 diferentes, entonces, ¿cómo podemos tratar de encontrar información útil?
+Después de decompilar, veréis que hay una gran cantidad de archivos, aproximadamente alrededor de 8200 diferentes, entonces, ¿cómo podemos tratar de encontrar información útil?
 Como dije anteriormente, queremos saber cómo interactúa esta aplicación con el servidor backend de la máquina, por lo que, naturalmente, asumiríamos que el nombre de dominio debe haber sido codificado en algún lugar del código fuente para realizar cualquier llamada a la API.
 
 {{<betterfigure src="files/grepscreen.png" alt="Grepping for domains">}}
@@ -65,7 +65,7 @@ No obstante, como podréis ver, no hay mucho que se pueda hacer como usuario no 
 
 Una vez obtenido, finalmente podemos agregar nuestro token de inicio de sesión a la cabecera de autorización dentro del sitio web de documentación de la API y darnos cuenta de que podemos... En realidad, no hacer mucho.
 Como te daréis cuenta, todas las llamadas a la API administrativa están prohibidas para los usuarios habituales como nosotros *(y tampoco parece haber ninguna llamada a la API mal configurada/explotable disponible)*, pero como recordaréis, los tokens JWT parecen compartir un encabezado común para manejar los métodos de cifrado.
-Entonces, ¿qué pasa si intentamos buscar uno de esos encabezados en el código base APK descompilado?
+Entonces, ¿qué pasa si intentamos buscar uno de esos encabezados en el código base APK decompilado?
 
 ## El Rabbit R1 acaba de llamar, quiere su llave API hardcodeada de vuelta
 
