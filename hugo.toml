@@ -24,7 +24,7 @@ author = "Raul Bulgariu Suciu"
 description = "Raul Bulgariu's personal website"
 keywords = "blog,developer,personal"
 info = ["SysAdmin", "Ethical Hacker"]
-avatarURL = "images/avatar.gif"
+avatarURL = "images/avatar.png"
 dateFormat = "January 2, 2006"
 since = 2023
 # Git Commit in Footer, uncomment the line below to enable it
@@ -38,7 +38,7 @@ rtl = false
 # "auto" (use preference set by browser)
 # "dark" (dark background, light foreground)
 # "light" (light background, dark foreground) (default)
-colorScheme = "dark"
+colorScheme = "auto"
 # Hide the toggle button, along with the associated vertical divider
 hideColorSchemeToggle = false
 # Series see also post count

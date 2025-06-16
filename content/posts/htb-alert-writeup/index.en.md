@@ -30,8 +30,6 @@ We can immediately tell what the website's all about, we can upload **Markdown**
 
 The developers seem to be proud of their administrator for responding to any messages sent via the "Contact Us" section, sounds interesting but we should focus now on the Markdown rendering for now.
 
-{{<betterfigure src="files/gullible.png" alt="Gullible">}}
-
 ## Sanitized user input? Never heard of it!
 
 Since the whole point of the website is all about rendering Markdown let's write some text for it to process:

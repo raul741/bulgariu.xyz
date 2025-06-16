@@ -4,7 +4,7 @@ description = "Who am I?"
 date = "2023-05-21"
 +++
 
-{{<floatfigure src="/images/avatar.gif" alt="Dragon">}}
+{{<floatfigure src="/images/avatar.png" alt="Void">}}
 
 Hi there, I'm Raul and this is my personal website, if you're interested in CTF writeups or tech tutorials then you'll most likely enjoy your stay here.
 

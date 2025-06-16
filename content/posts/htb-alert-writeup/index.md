@@ -30,8 +30,6 @@ Podemos saber inmediatamente de qué trata el sitio web, podemos cargar archivos
 
 Los desarrolladores parecen estar orgullosos de su administrador por responder a cualquier mensaje enviado a través de la sección "Contáctenos", suena interesante, pero deberíamos centrarnos en el renderizado de Markdown por ahora.
 
-{{<betterfigure src="files/gullible.png" alt="Gullible">}}
-
 ## ¿Entrada de usuario desinfectada? ¡Nunca he oído hablar de ello!
 
 Dado que el objetivo del sitio web es renderizar Markdown, escribamos un poco de texto para que lo procese:
