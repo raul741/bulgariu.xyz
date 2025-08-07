@@ -10,6 +10,8 @@ Hola, soy Raúl y este es mi sitio web personal, si estás interesado en guías 
 
 Mis principales intereses giran en torno a la ciberseguridad y la administración de sistemas/redes, con un poco de programación al lado.
 
+Mis perfiles [HackTheBox](https://app.hackthebox.com/profile/1471024) y [HackMyVM](https://hackmyvm.eu/public/?u=raul).
+
 Si quieres saber más sobre mi experiencia en programación, [siempre me ha gustado escribir en Go](https://git.bulgariu.xyz/raul).
 
 Puedes encontrar algunos de mis tutoriales/artículos [aquí](/posts).
