@@ -32,7 +32,7 @@ Dirigiéndonos al enlace **"Docs"**, descubrimos que la página de documentació
 
 {{<betterfigure src="./files/3.png" alt="">}}
 
-# Gaining a foothold
+# Ganando un punto de apoyo
 
 Buscando exploits relacionados con la versión de XWiki en línea, [encontramos un ***PoC*** para una vulnerabilidad RCE](https://github.com/dollarboysushil/CVE-2025-24893-XWiki-Unauthenticated-RCE-Exploit-POC) relacionada con [CVE-2025-24893](https://www.offsec.com/blog/cve-2025-24893/) que podemos usar contra la máquina.
 
@@ -42,7 +42,7 @@ Buscando exploits relacionados con la versión de XWiki en línea, [encontramos 
 > ```bash
 > python3 -c "import pty;pty.spawn('/bin/bash')"
 > export TERM=xterm
-> # Press Ctrl+Z
+> # Pulsa Ctrl+Z
 > stty raw -echo; fg
 > ```
 
