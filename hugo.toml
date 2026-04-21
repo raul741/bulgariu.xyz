@@ -5,30 +5,22 @@ uglyURLs = false
 relativeURLs = true
 languageCode = "en"
 
-
 # Change this if you want spanish (es) or english (en) to show up first when someone touches your website
 defaultContentLanguage = "es"
 #paginate = 6
 enableEmoji = true
-
-[services]
-[services.disqus]
-# Enable Disqus comments
-# shortname = "yourdiscussshortname"
 
 [markup.highlight]
 noClasses = false
 
 [params]
 author = "Raul Bulgariu Suciu"
-description = "Raul Bulgariu's personal website"
-keywords = "blog,developer,personal"
+description = "Raul's personal page."
+keywords = "Cybersecurity, Linux, HackTheBox, HTB, Guides"
 info = ["SysAdmin", "Ethical Hacker"]
 avatarURL = "images/avatar.png"
 dateFormat = "January 2, 2006"
 since = 2023
-# Git Commit in Footer, uncomment the line below to enable it
-commit = "https://git.bulgariu.xyz/site/tree"
 
 # Right To Left, shift content direction for languages such as Arabic
 rtl = false
@@ -74,9 +66,9 @@ url = "mailto:raul@bulgariu.xyz"
 
 [[params.social]]
 name = "Git"
-icon = "fa fa-2x fa-git"
+icon = "fa fa-2x fa-github"
 weight = 3
-url = "https://git.bulgariu.xyz/raul"
+url = "https://github.com/raul741"
 
 [languages.en]
 languageName = ":es:"
@@ -90,7 +82,7 @@ url = "https://cv.bulgariu.xyz/en"
 [[languages.en.menu.main]]
 name = "Git"
 weight = 2
-url = "https://git.bulgariu.xyz/raul"
+url = "https://github.com/raul741"
 
 [[languages.en.menu.main]]
 name = "About"
@@ -101,11 +93,6 @@ url = "/about"
 name = "Posts"
 weight = 4
 url = "/posts"
-
-[[languages.en.menu.main]]
-name = "Terminal"
-weight = 5
-url = "https://cli.bulgariu.xyz"
 
 [[languages.en.menu.main]]
 name = "Contact me"
@@ -141,11 +128,6 @@ url = "about/"
 name = "Publicaciones"
 weight = 4
 url = "posts/"
-
-[[languages.es.menu.main]]
-name = "Terminal"
-weight = 5
-url = "https://cli.bulgariu.xyz"
 
 [[languages.es.menu.main]]
 name = "Contacta conmigo"
