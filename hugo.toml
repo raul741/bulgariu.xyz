@@ -111,7 +111,7 @@ title = "bulgariu.xyz"
 author = "Raúl Bulgariu Suciu"
 info = ["SysAdmin", "Hacker Ético"]
 description = "Página web personal de Raúl Bulgariu Suciu"
-keywords = "blog,developer,personal"
+keywords = "Ciberseguridad, Linux, HackTheBox, HTB, Guías"
 
 [[languages.es.menu.main]]
 name = "CV"
