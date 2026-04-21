@@ -46,6 +46,10 @@ customJS = []
 # Custom remote JS files
 customRemoteJS = []
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [taxonomies]
 category = "categories"
 series = "series"
