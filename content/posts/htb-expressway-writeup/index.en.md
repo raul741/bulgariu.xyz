@@ -61,7 +61,7 @@ Once we finally have access to the VPN password, you might be thinking of trying
 
 Using the IKE VPN password we can log in to the server as the `ike` user, granting us access to the `user.txt` flag.
 
-# PrivEsc:
+# PrivEsc
 
 While exploring the machine from within, you might check the version of `sudo` running inside, it being version **1.9.17**:
 
