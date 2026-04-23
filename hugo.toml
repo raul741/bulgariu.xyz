@@ -60,7 +60,7 @@ author = "authors"
 name = "HTB"
 icon = "fa fa-2x fa-cube"
 weight = 1
-url = "https://app.hackthebox.com/profile/1471024"
+url = "https://app.hackthebox.com/public/users/1471024"
 
 [[params.social]]
 name = "Email"
@@ -121,7 +121,7 @@ url = "https://cv.bulgariu.xyz/es"
 [[languages.es.menu.main]]
 name = "Git"
 weight = 2
-url = "https://git.bulgariu.xyz/raul"
+url = "https://github.com/raul741"
 
 [[languages.es.menu.main]]
 name = "Sobre mí"
