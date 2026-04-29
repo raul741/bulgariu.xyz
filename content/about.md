@@ -4,7 +4,7 @@ description = "¿Quién soy yo?"
 date = "2023-05-21"
 +++
 
-{{<floatfigure src="/images/logo.png" alt="Logo">}}
+{{<floatfigure src="/images/avatar.png" alt="Logo">}}
 
 Hola, soy Raúl y este es mi sitio web personal, si estás interesado en guías de CTFs o tutoriales de informática, lo más probable es que disfrutes de tu estancia aquí.
 
