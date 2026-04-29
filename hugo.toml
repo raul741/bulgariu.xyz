@@ -18,7 +18,7 @@ author = "Raul Bulgariu Suciu"
 description = "Raul's personal page."
 keywords = "Cybersecurity, Linux, HackTheBox, HTB, Guides"
 info = ["SysAdmin", "Ethical Hacker"]
-avatarURL = "images/avatar.png"
+avatarURL = "images/logo.png"
 dateFormat = "January 2, 2006"
 since = 2023
 
