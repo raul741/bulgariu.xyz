@@ -12,6 +12,9 @@ Mis principales intereses giran en torno a la ciberseguridad y la administració
 
 Mi [perfil](https://app.hackthebox.com/public/users/1471024) de ***HackTheBox*** y [mi equipo](https://app.hackthebox.com/public/teams/6631).
 
-Si quieres saber más sobre mi experiencia en programación, [siempre me ha gustado escribir en Go](https://git.bulgariu.xyz/raul).
+**Algunos de mis logros más conocidos incluyen:**
+
+* [Medalla de oro en la competición CVSkills de Ciberseguridad en la Comunidad Valenciana *(2025)*.](https://ceice.gva.es/documents/388109149/390658693/puntuacio_final.pdf/97fc822f-71b0-a217-e5a1-6d92960befb6)
+* [Primer lugar en los premios extraordinarios de formación profesional de grado medio *(informática)* en la Comunidad Valenciana *(2023-2024)*.](https://dogv.gva.es/datos/2025/05/22/pdf/2025_17642_es.pdf)
 
 Puedes encontrar algunos de mis tutoriales/artículos [aquí](/posts).
